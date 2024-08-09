@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registert</title>
+    <link rel="stylesheet" href="register.css">
+    <style>
+        body{
+    background: url("img6.jpg") no-repeat center center/cover;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 120px;
+}
+.action h1{
+    font-size: 45px;
+    color: black;
+    font-weight: 550;
+}
+.action input{
+    margin-top: 20px;
+    width: auto;
+    font-size: 22px;
+}
+.Register{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+    </style>
+</head>
+<body>
+    <form class="action">
+        <h1><u>Register</u></h1>
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="password" name="password" placeholder="password" required>
+        <div class="Register">
+            <button type="submit"><a href="Login.html">Register</a></button>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,375 @@
+* {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("blog-bg.svg") no-repeat center center/cover
+}
+.container{
+    padding: 9px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+   margin-right: 30px;
+   align-items: center;
+    
+}
+nav h1{
+    margin-left: 15px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.courses a{
+    color: rgb(0, 0, 0);
+    text-decoration: double;
+    font-size: 20px;
+    position: relative;
+    background: #f4d1dc;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 10%;
+    line-height: 70px;
+    margin-top: 55px;
+    margin-left: 20px;
+    border: 2px solid #c2724b;
+}
+
+.scontainer{
+    margin-left: 60%;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.scontainer1{
+    margin-left: 76%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.scontainer2{
+    margin-left: 55%;
+    margin-top: 25px;
+}
+.scontainer.img{
+    border-top-right-radius: 20px;
+}
+.Heading{
+    margin-top: -25%;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.Heading span{
+    color: #ff004f;
+}
+.Heading h2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+/*------------------programs------------------*/
+#program{
+    margin-top: -10%;
+}
+.action{
+    margin-top: 20%;
+    text-align: center;
+}
+.work-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work{
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    padding: -20%;
+    border-radius: 10px;
+    display: block;
+    margin-top: 50px;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: height 1s;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+button{
+    font-size: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid black;
+    color: #fff;
+    cursor: pointer;
+}
+/*------------------About us-----------------*/
+#about{
+    margin-top: -5%;
+}
+.image{
+    padding: 80px;
+    margin-top: 20%;
+}
+.image1{
+    padding: 35%;
+    margin-top: -30%;
+    font-size: 40px;
+}
+.image2{
+    margin-top: -70%;
+    padding: 90px;
+}
+.image3{
+    margin-top: -70%;
+    padding: 350px;
+}
+.image4{
+    display: block;
+    margin-top: -25%;
+    animation: backwards 2s infinite;
+}
+.text1{
+    margin-left: 53%;
+    margin-top: -30%;
+}
+.text1 h2{
+    margin-bottom: 20px;
+}
+.text1 h1{
+    font-size: 57px;
+}
+.text1 h1 span{
+    color: #ff004f;
+}
+.text1 p{
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgba(0,0,0,0.3);
+    margin-right: 20px;
+}
+/*-------------course--------------*/
+#course{
+
+}
+.course-card h1{
+    margin-top: 18%;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.course-card img{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 35px;
+}
+.images{
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.images1{
+    padding: 20px;
+    text-align: justify;
+}
+.images1 h1{
+    margin-top: 10px;
+}
+.images2{
+    padding: 30px;
+    margin-top: -18px;
+}
+.images2 h1{
+    margin-top: -2px;
+    padding: 10px;
+}
+.images3{
+    padding: 40px;
+    margin-top: -27px;
+}
+.images3 h1{
+    margin-top: -2px;
+    padding: 10px;
+}
+.star{
+    padding-left: 20px;
+}
+.star i{
+    padding: 10px;
+    margin-top: -5px;
+}
+.price{
+    margin-top: -20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ce5418;
+}
+.lessons{
+    margin-left: 30px;
+}
+.lessons i{
+    margin-left: 10%;
+}
+.achievements{
+    display: flex;   
+}
+.achievements1{
+    margin-left: 8%;
+    width: 15%;
+    border-style: double;
+    border-width: -40px;
+    background-color: #f29797;
+    border-radius: 5px;
+}
+.achievements1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 650;
+    color: red;
+    margin-top: 15px;
+}
+.achievements1 h3{
+    text-align: center;
+    font-size: 15px;
+
+}
+.achievements2{
+    margin-left: 8%;
+    width: 15%;
+    border-style: double;
+    border-width: -40px;
+    background-color: #b9f3be;
+    border-radius: 5px;
+}
+.achievements2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 650;
+    color: rgb(23, 122, 5);
+    margin-top: 15px;
+}
+.achievements2 h3{
+    text-align: center;
+    font-size: 15px;
+
+}
+.achievements3{
+    margin-left: 8%;
+    width: 15%;
+    border-style: double;
+    border-width: -40px;
+    background-color: #c387f1;
+    border-radius: 5px;
+}
+.achievements3 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 650;
+    color: rgb(66, 27, 129);
+    margin-top: 15px;
+}
+.achievements3 h3{
+    text-align: center;
+    font-size: 15px;
+
+}
+.achievements4{
+    margin-left: 8%;
+    width: 15%;
+    border-style: double;
+    border-width: -40px;
+    background-color: #ebe897;
+    border-radius: 5px;
+}
+.achievements4 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 650;
+    color: rgb(134, 143, 4);
+    margin-top: 15px;
+}
+.achievements4 h3{
+    text-align: center;
+    font-size: 15px;
+
+}
+/*-----------contacts-------------*/
+#contacts{
+    margin-top: 10%;
+    background-color: rgba(0,0,0,0.8);
+}
+.Bcontainer{
+    text-align: right;
+    color: #fff;
+}
+.Bcontainer h1{
+    text-align: right;
+    padding-right: 50px;
+}
+.Bcontainer i{
+    text-align: right;
+    font-size: 40px;
+    padding-right: 15px;
+}
+.Bcontainer a{
+    color: #fff;
+}
+.Bcontainers{
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.Bcontainer-2{
+    padding: 50px;
+    margin-top: -48px;
+}
+.Bcontainers a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo-1{
+    color: #fff;
+    font-size: 30px;
+    padding: 25px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
+.copyright i{
+    color: red;
+}

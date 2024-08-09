@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transperent Background Login Page</title>
+    <style>
+        body{
+    background: url('img5.jpg') no-repeat center center/cover;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.action h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: #fff;
+}
+.action input{
+    font-size: 20px;
+}
+.Button{
+    font-size: 30px;
+}
+.checkbox{
+    margin-left: 20px;
+
+}
+.action.checkbox{
+    text-align: left;
+}
+
+    </style>
+</head>
+<body>
+    <form class="action">
+        <h1>LOGIN</h1>
+        <input type="email" name="email" class="box" placeholder="Enter Username" required>
+        <input type="password" name="password" class="box" placeholder="password" required>
+        <div class="checkbox">
+            <label><input type="checkbox">Remember me</label><br>
+            <a href="">Forgot Password</a>
+        </div> 
+        <div class="Button">
+            <button type="submit">Login</button>
+        <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
